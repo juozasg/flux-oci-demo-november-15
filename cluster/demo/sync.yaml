@@ -19,7 +19,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./kustomize
+  path: ./cluster/demo
   prune: false
   sourceRef:
     kind: OCIRepository
